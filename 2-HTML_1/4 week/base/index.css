@@ -1,4 +1,21 @@
 /*Ссылка на шрифты кроме основного 'https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700'*/
+
+/*font-family: 'Hind Siliguri', sans-serif;*/
+/*font-family: 'Racing Sans One', cursive;*/
+/*font-family: 'Six Caps', sans-serif;*/
+/*font-family: 'Space Mono', monospace;*/
+/*font-family: 'Farsan', cursive;*/
+
+@font-face {
+    font-family: 'Cantata One', serif;
+    src: url("./fonts/CantataOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Times New Roman', serif;
+    src: local("Times New Roman");
+}
+
 body
 {
     width: 1200px;
@@ -27,6 +44,8 @@ body
     width: 200px;
     padding: 25px 10px;
 
+    font-size: 1em;
+    text-align: center;
     border: 1px solid;
 }
 
@@ -39,16 +58,26 @@ body
 
 .header__weather-title
 {
+    font: bold 1.17em 'Space Mono', monospace;
+    text-align: center;
+
     margin: 0;
 }
 
 .header__weather-text
 {
+    font-size: .8em;
+    text-align: justify;
+    line-height: 1.1em;
+
     margin: 0;
 }
 
 .header__title
 {
+    font: 4rem 'Cantata One', serif;
+    text-align: center;
+
     overflow: visible;
 
     margin: 0;
@@ -68,6 +97,8 @@ body
 {
     display: inline-block;
 
+    font-size: .6em;
+
     margin: 0 30px;
 }
 
@@ -86,6 +117,8 @@ body
 /*––––––––––––––––––Блок статьи–––––––––––––––––––––*/
 .article__title
 {
+    font: bold 3.2em 'Six Caps', sans-serif;
+
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -106,6 +139,10 @@ body
 .article__author
 {
     display: block;
+
+    font-size: .8em;
+    font-weight: 700;
+    text-align: center;
 
     margin-top: 10px;
 }
@@ -130,6 +167,9 @@ body
 
 .article__subtitle
 {
+    font: bold 1.17em 'Times New Roman', sans-serif;
+    text-align: center;
+
     margin: 10px 0;
 }
 
