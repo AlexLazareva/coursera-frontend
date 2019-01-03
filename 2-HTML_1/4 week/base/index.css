@@ -123,6 +123,22 @@ body
     margin-bottom: 10px;
 }
 
+.article__title_font_racing
+{
+    font: italic 2em 'Racing Sans One', cursive;
+}
+.article__title_font_farsan
+{
+    font: italic 2.3em 'Farsan', cursive;
+}
+
+.article__title_font_racing,
+.article__title_font_farsan
+{
+    font-weight: 700;
+}
+
+
 .article__help
 {
     margin-top: 10px !important;
@@ -132,6 +148,11 @@ body
 
 .article__add-text
 {
+    font-size: .8em;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 1.1em;
+
     margin-top: 10px;
     margin-bottom: 4px;
 }
@@ -150,6 +171,10 @@ body
 .article__continue
 {
     display: block;
+
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
 }
 
 .article__image
@@ -165,12 +190,30 @@ body
     margin: 10px 0 5px 10px;
 }
 
+.article__image-caption
+{
+    font-size: .8rem;
+    text-decoration: underline;
+}
+
 .article__subtitle
 {
     font: bold 1.17em 'Times New Roman', sans-serif;
     text-align: center;
 
     margin: 10px 0;
+}
+
+.article__content p
+{
+    font-size: .8em;
+    text-align: justify;
+    text-indent: 1.1em;
+}
+
+.article_columns_two > div.article__content p
+{
+    column-count: 2;
 }
 
 /*––––––––––––––––––Блок главной фотографии–––––––––*/
@@ -186,12 +229,22 @@ body
 
 .main-photo__title
 {
+    font: bold 1.17em 'Times New Roman', sans-serif;
+
     margin: 0;
 }
 
 .main-photo__desc
 {
+    font-size: .8em;
+
     margin-bottom: 20px;
+}
+.main-photo__caption
+{
+    font-size: .7rem;
+    text-align: right;
+    text-transform: uppercase;
 }
 
 /*––––––––––––––––––Линия разделения––––––––––––––––*/

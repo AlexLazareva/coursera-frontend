@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3367961-4821-49c3-8d10-2c06c1b918a9" name="Default Changelist" comment="done 17-20 tasks">
-      <change afterPath="$PROJECT_DIR$/2-HTML_1/4 week/base/fonts/CantataOne-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-HTML_1/4 week/base/fonts/OFL.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-HTML_1/4 week/base/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-HTML_1/4 week/base/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-HTML_1/4 week/base/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2-HTML_1/4 week/base/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.eslintignore" beforeDir="false" />
@@ -53,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-HTML_1/4 week/base/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+            <state relative-caret-position="351">
+              <caret line="213" column="45" lean-forward="true" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -71,6 +68,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.header__info</find>
+      <find>.article__title</find>
+      <find>Rac</find>
+      <find>farsan</find>
+      <find>.article</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,14 +109,18 @@
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,10 +150,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546459668742" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546460098212" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,7 +187,8 @@
       <workItem from="1544973791251" duration="1332000" />
       <workItem from="1546112449812" duration="113000" />
       <workItem from="1546116236652" duration="208000" />
-      <workItem from="1546449080750" duration="9526000" />
+      <workItem from="1546449080750" duration="10166000" />
+      <workItem from="1546504791898" duration="5734000" />
     </task>
     <task id="LOCAL-00001" summary="done training task">
       <created>1546451935809</created>
@@ -282,13 +292,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6748000" />
+    <option name="totallyTimeSpent" value="13122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -304,7 +314,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49936628" visible="true" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49936628" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006337" side_tool="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -318,6 +328,9 @@
       <window_info anchor="right" id="Database" order="8" weight="0.32969153" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2-HTML_1/4 week/base/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -328,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-HTML_1/4 week/base/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+        <state relative-caret-position="351">
+          <caret line="213" column="45" lean-forward="true" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
         </state>
       </provider>
     </entry>
