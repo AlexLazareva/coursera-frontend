@@ -8,14 +8,25 @@
 
 @font-face {
     font-family: 'Cantata One', serif;
-    src: url("./fonts/CantataOne-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cantata One Regular'), url("./fonts/CantataOne-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Cantata One Regular', serif;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cantata One Regular'), url('./fonts/CantataOne-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
     src: local("Times New Roman");
 }
-
+/* Общие стили */
 body
 {
     width: 1200px;
@@ -28,6 +39,13 @@ body
     clear: both;
 
     content: '';
+}
+
+p
+{
+    font-size: .8em;
+    text-align: justify;
+    text-indent: 2ch;
 }
 
 /*––––––––––––––––––Шапка газеты––––––––––––––––––––*/
@@ -148,10 +166,7 @@ body
 
 .article__add-text
 {
-    font-size: .8em;
     font-style: italic;
-    text-align: justify;
-    text-indent: 1.1em;
 
     margin-top: 10px;
     margin-bottom: 4px;
@@ -202,13 +217,6 @@ body
     text-align: center;
 
     margin: 10px 0;
-}
-
-.article__content p
-{
-    font-size: .8em;
-    text-align: justify;
-    text-indent: 1.1em;
 }
 
 .article_columns_two > div.article__content p
