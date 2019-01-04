@@ -1,5 +1,35 @@
-.animation {
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.cube {
     width: 150px;
     height: 150px;
     background-color: #ff0000;
+}
+
+@keyframes animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(100px, 0);
+    }
+    75% {
+        transform: translate(100px, 100%);
+    }
+    100% {
+        transform: translate(100px, 100%) scale(2) rotate(145deg);
+    }
+}
+.animation {
+    animation: animation 2s linear forwards;
+}
+.animation:hover {
+    background-color: #ffff66;
+    transition: background-color linear 500ms;
 }
