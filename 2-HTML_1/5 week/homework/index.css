@@ -20,6 +20,8 @@
     
     background: skyblue;
     box-shadow: 0 -400px 300px -300px steelblue inset;
+
+    animation: time 120s linear infinite;
 }
 
 /*TODO
@@ -36,7 +38,20 @@
         
 Нужно реализовать плавный переход между ними и зациклить его.
 */
-
+@keyframes time {
+    0%, 100% {
+        background: skyblue;
+        box-shadow: 0 -400px 300px -300px steelblue inset;
+    }
+    25% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px orangered inset;
+    }
+    75% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px transparent inset;
+    }
+}
 .ship::after {
     position: absolute;
     bottom: 0;
@@ -67,11 +82,21 @@
 
 .ship {
     position: absolute;
-    right: 0;
+    right: -100px;
     bottom: 30px;
     
     width: 100px;
     height: 36px;
+
+    animation: sailing 55s linear infinite 2s;
+}
+@keyframes sailing {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-600px);
+    }
 }
 
 .ship_smokestack {
@@ -134,7 +159,46 @@
     border-radius: 50%;
     background: #ffcf11;
     box-shadow: 0 0 100px #ffdf05;
+
+    animation: sunrise 100s linear infinite 5s;
+               /*sun-rotate 60s linear infinite;*/
 }
+
+@keyframes sunrise {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(400px, 200px) rotate(90deg);
+    }
+    50% {
+        transform: translate(400px, 450px) rotate(180deg);
+    }
+    75% {
+        transform: translate(-500px, 450px) rotate(270deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+    }
+}
+
+/*@keyframes sun-rotate {*/
+    /*0% {*/
+        /*transform: rotate(0deg);*/
+    /*}*/
+    /*25% {*/
+        /*transform: rotate(90deg);*/
+    /*}*/
+    /*50% {*/
+        /*transform: rotate(180deg);*/
+    /*}*/
+    /*75% {*/
+        /*transform: rotate(270deg);*/
+    /*}*/
+    /*100% {*/
+        /*transform: rotate(360deg);*/
+    /*}*/
+/*}*/
 
 .sun-wrapper {
     position: absolute;
@@ -232,18 +296,60 @@
 
 .cloud-1 {
     top: 10px;
+    animation: cloud-1 47s linear infinite;
+}
+
+@keyframes cloud-1 {
+    0% {
+        transform: translateX(0) scale(.4);
+    }
+    100% {
+        transform: translateX(700px) scale(.4);
+    }
 }
 
 .cloud-2 {
     top: 50px;
+    left: -210px;
+    animation: cloud-2 34s linear infinite 5s;
+}
+
+@keyframes cloud-2 {
+    0% {
+        transform: translateX(0) scale(.6);
+    }
+    100% {
+        transform: translateX(700px) scale(.6);
+    }
 }
 
 .cloud-3 {
     top: 100px;
+    left: -210px;
+    animation: cloud-3 26s linear infinite 7s;
+}
+
+@keyframes cloud-3 {
+    0% {
+        transform: translateX(0) scale(.75);
+    }
+    100% {
+        transform: translateX(700px) scale(.75);
+    }
 }
 
 .cloud-4 {
     top: 170px;
+    animation: cloud-4 18s linear infinite;
+}
+
+@keyframes cloud-4 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(700px);
+    }
 }
 
 .sea {
