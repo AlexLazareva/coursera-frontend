@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3367961-4821-49c3-8d10-2c06c1b918a9" name="Default Changelist" comment="create animation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-HTML_1/5 week/homework/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/2-HTML_1/5 week/homework/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.editorconfig" beforeDir="false" />
@@ -47,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-HTML_1/5 week/homework/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="162" column="47" lean-forward="true" selection-start-line="162" selection-start-column="47" selection-end-line="162" selection-end-column="47" />
+            <state relative-caret-position="96">
+              <caret line="137" column="16" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -157,13 +158,6 @@
               <item name="Coursera" type="462c0819:PsiDirectoryNode" />
               <item name="2-HTML_1" type="462c0819:PsiDirectoryNode" />
               <item name="5 week" type="462c0819:PsiDirectoryNode" />
-              <item name="animation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Coursera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="2-HTML_1" type="462c0819:PsiDirectoryNode" />
-              <item name="5 week" type="462c0819:PsiDirectoryNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -178,7 +172,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546713224433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546715359052" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Новый текстовый документ (2).txt" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -219,7 +213,7 @@
       <workItem from="1546504791898" duration="10054000" />
       <workItem from="1546592030671" duration="3898000" />
       <workItem from="1546618580983" duration="7221000" />
-      <workItem from="1546695424494" duration="14117000" />
+      <workItem from="1546695424494" duration="16249000" />
     </task>
     <task id="LOCAL-00001" summary="done training task">
       <created>1546451935809</created>
@@ -323,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42678000" />
+    <option name="totallyTimeSpent" value="44810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -412,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-HTML_1/5 week/homework/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="162" column="47" lean-forward="true" selection-start-line="162" selection-start-column="47" selection-end-line="162" selection-end-column="47" />
+        <state relative-caret-position="96">
+          <caret line="137" column="16" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
         </state>
       </provider>
     </entry>

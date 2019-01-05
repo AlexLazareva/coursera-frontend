@@ -136,16 +136,41 @@
 .smoke-1 {
     top: -25px;
     right: 44px;
+
+    animation: smoke 5s linear infinite 2s;
 }
 
 .smoke-2 {
     top: -25px;
     right: 42px;
+
+    animation: smoke 5s linear infinite 4s;
 }
 
 .smoke-3 {
     top: -25px;
     right: 49px;
+
+    animation: smoke 5s linear infinite 6s;
+}
+
+@keyframes smoke {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    25% {
+        transform: translateY(-20px) scale(2);
+        opacity: .75;
+    }
+    50% {
+        transform: translateY(-20px) scale(2);
+        opacity: .25;
+    }
+    100% {
+        transform: translateY(-20px) scale(2);
+        opacity: 0;
+    }
 }
 
 .sun {
@@ -160,7 +185,7 @@
     background: #ffcf11;
     box-shadow: 0 0 100px #ffdf05;
 
-    animation: sunrise 100s linear infinite 5s;
+    animation: sunrise 100s linear infinite;
                /*sun-rotate 60s linear infinite;*/
 }
 
