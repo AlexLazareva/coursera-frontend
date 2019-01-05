@@ -166,7 +166,10 @@ p
 
 .article__add-text
 {
+    font-size: .8em;
     font-style: italic;
+    text-align: justify;
+    text-indent: 2ch;
 
     margin-top: 10px;
     margin-bottom: 4px;
