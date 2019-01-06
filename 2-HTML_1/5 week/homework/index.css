@@ -300,13 +300,13 @@
 .cloud-2 {
     top: 50px;
     left: -210px;
-    animation: cloud-2 34s linear infinite 5s;
+    animation: cloud-2 34s linear infinite 3s;
 }
 
 .cloud-3 {
     top: 100px;
     left: -210px;
-    animation: cloud-3 26s linear infinite 7s;
+    animation: cloud-3 26s linear infinite 6s;
 }
 
 .cloud-4 {
