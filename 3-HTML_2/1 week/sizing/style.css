@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.great {
+    width: 400px;
+    box-sizing: border-box;
+
+    border: 2px #ff0000 dashed;
+    margin: 50px auto 0;
+    padding: 25px;
+
+    text-align: center;
+}
+
+.great__header {
+    width: 80%;
+    margin: 0 0 15px;
+}
+
+.great__text {
+    width: 80%;
+    padding: 0 10%;
+    margin: 0;
+}
