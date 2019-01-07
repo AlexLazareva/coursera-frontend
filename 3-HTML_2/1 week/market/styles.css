@@ -2,14 +2,18 @@
     box-sizing: border-box;
 }
 body {
-    max-width: 1200px;
+    width: 100%;
+    height: 100%;
 
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
     padding: 0;
 }
 
-.clear-fix:after
-{
+.clear-fix:after {
     display: block;
     clear: both;
 
@@ -18,6 +22,8 @@ body {
 
 .container {
     width: 100%;
+    max-width: 1200px;
+
     padding: 0 15px;
     margin: 0 auto;
 }

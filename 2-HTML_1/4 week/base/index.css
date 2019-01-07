@@ -7,17 +7,12 @@
 /*font-family: 'Farsan', cursive;*/
 
 @font-face {
-    font-family: 'Cantata One', serif;
-    font-style: normal;
-    font-weight: normal;
-    src: local('Cantata One Regular'), url("./fonts/CantataOne-Regular.ttf") format('ttf');
-}
-
-@font-face {
     font-family: 'Cantata One Regular', serif;
     font-style: normal;
-    font-weight: normal;
-    src: local('Cantata One Regular'), url('./fonts/CantataOne-Regular.woff') format('woff');
+    font-weight: 400;
+    src: local("Cantata One Regular"),
+    url('fonts/CantataOne-Regular.ttf') format('ttf'),
+    url('fonts/CantataOne-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -72,6 +67,7 @@ p
     float: right;
 
     width: 200px;
+    text-indent: initial;
 }
 
 .header__weather-title
@@ -86,6 +82,7 @@ p
 {
     font-size: .8em;
     text-align: justify;
+    text-indent: initial;
     line-height: 1.1em;
 
     margin: 0;
@@ -93,7 +90,7 @@ p
 
 .header__title
 {
-    font: 4rem 'Cantata One', serif;
+    font: normal 4rem 'Cantata One Regular', serif;
     text-align: center;
 
     overflow: visible;
