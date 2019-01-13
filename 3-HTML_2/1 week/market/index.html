@@ -10,7 +10,7 @@
     <header>
         <div class="container">
             <div class="header__logo">
-                <h1>Мяндекс.Мурркет</h1>
+                <h1>Мяндекс <span>Мурркет</span></h1>
             </div>
             <div class="header__middle">
                 <div class="search">
@@ -20,14 +20,19 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <section>
-                Меню
-            </section>
-        </div>
     </header>
     <!-- Шапка END -->
-
+    <!-- Верхнее меню -->
+    <section class="menu">
+        <div class="container">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Все категории</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Верхнее меню END -->
     <!-- Основной блок -->
     <main>
         <div class="container">
@@ -37,10 +42,28 @@
             <content>
                 <div class="card">
                     <div class="card__img">
-                        jhiuh
+                        <img src="img/1.jpg" alt="cat1">
+                    </div>
+                    <div id="reviewStars-input">
+                        <input id="star-4" type="radio" name="reviewStars"/>
+                        <label title="очень добрый и ласковый" for="star-4"></label>
+
+                        <input id="star-3" type="radio" name="reviewStars"/>
+                        <label title="очень добрый" for="star-3"></label>
+
+                        <input id="star-2" type="radio" name="reviewStars"/>
+                        <label title="добрый" for="star-2"></label>
+
+                        <input id="star-1" type="radio" name="reviewStars"/>
+                        <label title="необщительный" for="star-1"></label>
+
+                        <input id="star-0" type="radio" name="reviewStars"/>
+                        <label title="злой" for="star-0"></label>
                     </div>
                     <article class="card__info">
-                        thrth
+                        <a href="#" class="card__title">Котик 1ntyhytruuuuuuuui8i787t8ihjg</a>
+                        <a href="#" class="card__category">Категория</a>
+                        <p class="card__text">Очень многие “кошатники” часто подбирают простых уличных и абсолютно непородистых кошек, ведь устоять против их своеобразного обаяния довольно сложно.</p>
                     </article>
                 </div>
             </content>

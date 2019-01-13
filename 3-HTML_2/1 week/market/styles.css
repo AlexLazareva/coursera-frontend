@@ -28,6 +28,9 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
 }
 
+header {
+    border-bottom: 1px solid rgba(0,0,0,.06);
+}
 .header__logo {
     display: inline-block;
     min-width: 290px;
@@ -37,9 +40,175 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 1rem;
     white-space: nowrap;
 }
+.header__logo span {
+    font-weight: 400;
+}
+
+.header__logo:first-letter {
+    color: #ff0000;
+}
 
 .header__middle {
     display: inline-block;
+}
+
+.menu {
+    box-sizing: border-box;
+    height: 48px;
+
+    color: #2b2b2b;
+
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 0 3px 0 rgba(0,0,0,.06);
+    padding: 0 8px;
+}
+
+.menu__list {
+    display: block;
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__link {
+    color: #000;
+    line-height: 48px;
+    text-decoration: none;
+}
+
+/* Карточка магазина */
+.card {
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.card__img {
+    overflow: hidden;
+}
+
+.card__img img {
+    height: 166px;
+}
+
+.card__info {
+    display: block;
+    width: 100%;
+
+    margin-top: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card__title {
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #04b;
+    white-space: nowrap;
+
+    transition: color .25s ease-out;
+}
+
+.card__title:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.card__category {
+    color: #999;
+    margin-top: 4px;
+    word-wrap: break-word;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.card__text {
+    margin: 30px 0 0;
+
+    font-size: 14px;
+    color: #404040;
+}
+
+/* Звездочки */
+
+#reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+    background: url('http://positivecrash.com/wp-content/uploads/ico-s71a7fdede6.png') no-repeat;
+    background-size: 95%;
+}
+
+#reviewStars-input {
+
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+}
+
+#reviewStars-input input {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+
+    width: 23px;
+    height: 20px;
+
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+#reviewStars-input input:checked ~ label {
+    background-position: 0 -20px;
+    height: 20px;
+    width: 23px;
+}
+
+#reviewStars-input label {
+    background-position: 0 0;
+    height: 20px;
+    width: 23px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+
+    position: relative;
+    z-index: 1;
+}
+
+#reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+    background-position: 0 -20px;
+    height: 20px;
+    width: 23px;
+}
+
+#reviewStars-input #star-0 {
+    left: 0px;
+}
+#reviewStars-input #star-1 {
+    left: 53px;
+}
+#reviewStars-input #star-2 {
+    left: 106px;
+}
+#reviewStars-input #star-3 {
+    left: 159px;
+}
+#reviewStars-input #star-4 {
+    left: 212px;
+}
+#reviewStars-input #star-5 {
+    left: 265px;
 }
 
 /*@media (min-width: 1200px) {*/
