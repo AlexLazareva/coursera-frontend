@@ -7,12 +7,12 @@
 /*font-family: 'Farsan', cursive;*/
 
 @font-face {
-    font-family: 'Cantata One Regular', serif;
+    font-family: TrueGothic;
     font-style: normal;
     font-weight: 400;
-    src: local("Cantata One Regular"),
-    url('fonts/CantataOne-Regular.ttf') format('ttf'),
-    url('fonts/CantataOne-Regular.woff') format('woff');
+    src: local("True Gothic Cyr"),
+    url('fonts/True Gothic Cyr.ttf') format('ttf'),
+    url('fonts/TrueGothicCyr.woff') format('woff');
 }
 
 @font-face {
@@ -90,7 +90,7 @@ p
 
 .header__title
 {
-    font: normal 4rem 'Cantata One Regular', serif;
+    font: normal 4rem TrueGothic, serif;
     text-align: center;
 
     overflow: visible;
