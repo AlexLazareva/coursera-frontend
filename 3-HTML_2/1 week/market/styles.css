@@ -85,7 +85,7 @@ header {
     width: 25%;
     display: inline-block;
     box-sizing: border-box;
-    vertical-align: top;
+    vertical-align: bottom;
 }
 .card__img {
     overflow: hidden;
@@ -196,21 +196,37 @@ header {
     left: 0px;
 }
 #reviewStars-input #star-1 {
-    left: 53px;
+    left: 33px;
 }
 #reviewStars-input #star-2 {
-    left: 106px;
+    left: 96px;
 }
 #reviewStars-input #star-3 {
-    left: 159px;
+    left: 129px;
 }
 #reviewStars-input #star-4 {
-    left: 212px;
+    left: 162px;
 }
 #reviewStars-input #star-5 {
-    left: 265px;
+    left: 195px;
 }
 
+/* Цена */
+.card__price {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.card__price--new {
+    color: #ff0000;
+}
+
+.card__price--old {
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
 /*@media (min-width: 1200px) {*/
     /*.container {*/
         /*max-width: 1140px;*/
