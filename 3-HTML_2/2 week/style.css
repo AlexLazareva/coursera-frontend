@@ -24,31 +24,89 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
     max-width: 1200px;
 
-    padding: 0 15px;
     margin: 0 auto;
 }
 
-/* Слайдер */
+/*---- Слайдер ----*/
 .gallery {
     width: 100%;
+    margin: 20px auto;
+}
+
+.gallery__wrapper {
+    width: 1086px;
+    height: 450px;
     position: relative;
 
+    margin: 0 auto;
     overflow: hidden;
 }
 
 .gallery__item {
-    width: 256px;
     display: inline-block;
+    position: absolute;
+    top: 10px;
+    width: 265px;
 
+    background-color: #fff;
     margin: 0 10px;
     padding: 10px 17px;
+}
+
+.gallery__item:hover {
+    width: 300px;
+    z-index: 100;
+
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.25),
+                -3px -3px 4px rgba(0,0,0,0.25);
+}
+
+.gallery__item:hover .content {
+    display: block;
 }
 
 .gallery__img {
     width: 100%;
 }
 
-/* Контролы слайдера*/
+.content {
+    display: none;
+    font-size: .8rem;
+}
+
+/*---- Слайд 1 ---- */
+#item-1 {
+    left: 0;
+}
+
+#item-2 {
+    left: 265px;
+}
+
+#item-3 {
+    left: 530px;
+}
+
+#item-4 {
+    left: 795px;
+}
+
+#item-5 {
+    left: 1060px;
+}
+
+#item-6 {
+    left: 1325px;
+}
+
+#item-7 {
+    left: 1590px;
+}
+
+#item-8 {
+    left: 1855px;
+}
+/*---- Контролы слайдера ----*/
 .controls__list {
     list-style-type: none;
     margin: 0 auto;
