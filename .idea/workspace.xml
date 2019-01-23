@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3367961-4821-49c3-8d10-2c06c1b918a9" name="Default Changelist" comment="create animation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-HTML_2/2 week/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-HTML_2/2 week/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-HTML_2/2 week/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-HTML_2/2 week/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.babelrc" beforeDir="false" />
@@ -57,20 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3-HTML_2/2 week/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="173" column="14" lean-forward="true" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="118" column="71" selection-start-line="118" selection-start-column="71" selection-end-line="118" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3-HTML_2/2 week/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="173" column="26" lean-forward="true" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
+            <state relative-caret-position="283">
+              <caret line="171" column="65" lean-forward="true" selection-start-line="171" selection-start-column="65" selection-end-line="171" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -148,8 +147,8 @@
         <option value="$PROJECT_DIR$/2-HTML_1/4 week/base/index.css" />
         <option value="$PROJECT_DIR$/3-HTML_2/1 week/market/index.html" />
         <option value="$PROJECT_DIR$/3-HTML_2/1 week/market/styles.css" />
-        <option value="$PROJECT_DIR$/3-HTML_2/2 week/style.css" />
         <option value="$PROJECT_DIR$/3-HTML_2/2 week/index.html" />
+        <option value="$PROJECT_DIR$/3-HTML_2/2 week/style.css" />
       </list>
     </option>
   </component>
@@ -208,7 +207,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548273755307" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548277855961" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Новый текстовый документ (2).txt" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -267,7 +266,7 @@
       <workItem from="1547442260880" duration="169000" />
       <workItem from="1547576090352" duration="3406000" />
       <workItem from="1547579805912" duration="78000" />
-      <workItem from="1548248046218" duration="22551000" />
+      <workItem from="1548248046218" duration="26635000" />
     </task>
     <task id="LOCAL-00001" summary="done training task">
       <created>1546451935809</created>
@@ -371,13 +370,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111638000" />
+    <option name="totallyTimeSpent" value="115722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33547556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33547556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -393,7 +392,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49936628" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49936628" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006337" side_tool="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -500,17 +499,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-HTML_2/2 week/style.css">
+    <entry file="file://$PROJECT_DIR$/3-HTML_2/2 week/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="173" column="26" lean-forward="true" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="118" column="71" selection-start-line="118" selection-start-column="71" selection-end-line="118" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-HTML_2/2 week/index.html">
+    <entry file="file://$PROJECT_DIR$/3-HTML_2/2 week/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="173" column="14" lean-forward="true" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+        <state relative-caret-position="283">
+          <caret line="171" column="65" lean-forward="true" selection-start-line="171" selection-start-column="65" selection-end-line="171" selection-end-column="65" />
         </state>
       </provider>
     </entry>

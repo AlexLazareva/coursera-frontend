@@ -107,6 +107,10 @@ h1, h2, h3, h4, h5, h6, p {
     left: 1855px;
 }
 
+.item__checkbox {
+    display: none;
+}
+
 /*---- Слайдер ----*/
 .slider {
     opacity: 0;
@@ -131,15 +135,43 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /*---- Подсвечиваем при клике на контрол ----*/
-#slide-1:checked ~ .controls__list > .control__item:nth-of-type(1),
-#slide-2:checked ~ .controls__list > .control__item:nth-of-type(2),
-#slide-3:checked ~ .controls__list > .control__item:nth-of-type(3),
-#slide-4:checked ~ .controls__list > .control__item:nth-of-type(4),
-#slide-5:checked ~ .controls__list > .control__item:nth-of-type(5),
-#slide-6:checked ~ .controls__list > .control__item:nth-of-type(6),
-#slide-7:checked ~ .controls__list > .control__item:nth-of-type(7),
-#slide-8:checked ~ .controls__list > .control__item:nth-of-type(8){
+#slide-1:checked ~ .controls__wrapper > .controls__list > .control__item:nth-of-type(1),
+#slide-2:checked ~ .controls__wrapper > .controls__list > .control__item:nth-of-type(2),
+#slide-3:checked ~ .controls__wrapper > .controls__list > .control__item:nth-of-type(3),
+#slide-4:checked ~ .controls__wrapper > .controls__list > .control__item:nth-of-type(4),
+#slide-5:checked ~ .controls__wrapper > .controls__list > .control__item:nth-of-type(5),
+#slide-6:checked ~ .controls__wrapper > .controls__list > .control__item:nth-of-type(6),
+#slide-7:checked ~ .controls__wrapper > .controls__list > .control__item:nth-of-type(7),
+#slide-8:checked ~ .controls__wrapper > .controls__list > .control__item:nth-of-type(8){
     border: 2px solid #1d7fbb;
+}
+
+
+#slide-2:checked ~ div.gallery__wrapper > .gallery__item#item-1,
+#slide-2:checked ~ div.gallery__wrapper > .gallery__item#item-2,
+#slide-2:checked ~ div.gallery__wrapper > .gallery__item#item-3 {
+    left: -265px;
+    transition: left .5s linear;
+}
+
+#slide-2:checked ~ div.gallery__wrapper > .gallery__item#item-4 {
+     left: 0;
+    transition: left .5s linear;
+}
+
+#slide-2:checked ~ div.gallery__wrapper > .gallery__item#item-5 {
+    left: 265px;
+    transition: left .5s linear;
+}
+
+#slide-2:checked ~ div.gallery__wrapper > .gallery__item#item-6 {
+    left: 530px;
+    transition: left .5s linear;
+}
+
+#slide-2:checked ~ div.gallery__wrapper > .gallery__item#item-7 {
+    left: 795px;
+    transition: left .5s linear;
 }
 
 /*---- Модальное окно ----*/
@@ -161,6 +193,15 @@ h1, h2, h3, h4, h5, h6, p {
     top: 25%;
     left: 25%;
     z-index: 500;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ffffff;
+    z-index: 150;
+    cursor: pointer;
 }
 
 #img-1:checked ~ .modal-window#modal-1,
