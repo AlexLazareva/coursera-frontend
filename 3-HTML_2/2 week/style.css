@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .gallery__wrapper {
     width: 1086px;
-    height: 450px;
+    height: 475px;
     position: relative;
 
     margin: 0 auto;
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .gallery__item:hover {
     width: 300px;
-    z-index: 100;
+    z-index: 10;
 
     box-shadow: 3px 3px 4px rgba(0,0,0,0.25),
                 -3px -3px 4px rgba(0,0,0,0.25);
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: .8rem;
 }
 
-/*---- Слайд 1 ---- */
+/*---- Слайд 1 и первоначальная позиция слайдера ---- */
 #item-1 {
     left: 0;
 }
@@ -106,13 +106,76 @@ h1, h2, h3, h4, h5, h6, p {
 #item-8 {
     left: 1855px;
 }
+
+/*---- Слайдер ----*/
+.slider {
+    opacity: 0;
+}
+
 /*---- Контролы слайдера ----*/
 .controls__list {
-    list-style-type: none;
-    margin: 0 auto;
     text-align: center;
 }
 
 .control__item {
     display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+
+    border: 2px solid #d8d6d6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*---- Подсвечиваем при клике на контрол ----*/
+#slide-1:checked ~ .controls__list > .control__item:nth-of-type(1),
+#slide-2:checked ~ .controls__list > .control__item:nth-of-type(2),
+#slide-3:checked ~ .controls__list > .control__item:nth-of-type(3),
+#slide-4:checked ~ .controls__list > .control__item:nth-of-type(4),
+#slide-5:checked ~ .controls__list > .control__item:nth-of-type(5),
+#slide-6:checked ~ .controls__list > .control__item:nth-of-type(6),
+#slide-7:checked ~ .controls__list > .control__item:nth-of-type(7),
+#slide-8:checked ~ .controls__list > .control__item:nth-of-type(8){
+    border: 2px solid #1d7fbb;
+}
+
+/*---- Модальное окно ----*/
+.modal-window {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal__background {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .7;
+}
+.modal-body {
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    z-index: 500;
+}
+
+#img-1:checked ~ .modal-window#modal-1,
+#img-2:checked ~ .modal-window#modal-2,
+#img-3:checked ~ .modal-window#modal-3,
+#img-4:checked ~ .modal-window#modal-4,
+#img-5:checked ~ .modal-window#modal-5,
+#img-6:checked ~ .modal-window#modal-6,
+#img-7:checked ~ .modal-window#modal-7,
+#img-8:checked ~ .modal-window#modal-8{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    text-align: center;
 }
