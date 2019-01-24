@@ -11,8 +11,10 @@ body {
 
     margin: 0;
     padding: 0;
+
+    background-color: #eeeeee;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -22,17 +24,47 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
 }
 
+/*--- Шапка ---*/
 header {
     flex: 0 0 auto;
-    background-color: #ff6698;
+    padding: 36px 15px 18px;
+    text-align: center;
 }
 
+/*--- Основной контент ---*/
 main {
+    display: flex;
+    flex-flow: row nowrap;
     flex: 1 0 auto;
-    background-color: #eeeeee;
+    justify-content: space-around;
+    padding: 30px 15px;
 }
 
+.main {
+    flex: 3 3 1120px;
+    border: 1px solid #404040;
+    padding: 0 0 0 15px;
+}
+
+/*--- Меню ---*/
+.menu {
+    flex: 1 1 200px;
+    background-color: #d2d2d2;
+}
+
+.menu__list {
+    list-style-type: none;
+}
+
+.menu__item {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 0 15px 12px;
+
+    border-bottom: 1px solid #6d6a6a;
+}
+
+/*--- Подвал ---*/
 footer {
     flex: 0 0 auto;
-    background-color: #ffff66;
 }
