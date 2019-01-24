@@ -53,6 +53,8 @@ main {
 
     display: inline-flex;
     flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
 
     background-color: #fff;
     margin: 0 10px 10px;
@@ -96,11 +98,28 @@ main {
     display: flex;
     align-items: flex-start;
     padding: 12px 18px 15px 12px;
+}
 
-    border-bottom: 1px solid #6d6a6a;
+.menu__left .menu__item {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 #6d6a6a;
+}
+
+.menu__title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fd0707;
+    padding: 10px;
+}
+
+.menu__handler {
+    text-align: right;
 }
 
 /*--- Подвал ---*/
 footer {
+    display: flex;
     flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 30px 15px;
 }
