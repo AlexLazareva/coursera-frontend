@@ -197,7 +197,8 @@ h1, h2, h3, h4, h5, h6, p {
 #slide-3:checked ~ div.gallery__wrapper > #item-1,
 #slide-3:checked ~ div.gallery__wrapper > #item-2,
 #slide-3:checked ~ div.gallery__wrapper > #item-3 {
-    display: none;
+    left: -265px;
+    transition: left .5s linear;
 }
 #slide-3:checked ~ div.gallery__wrapper > #item-4,
 #slide-3:checked ~ div.gallery__wrapper > #item-5,
