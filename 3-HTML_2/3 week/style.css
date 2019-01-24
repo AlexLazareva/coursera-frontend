@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    flex: 0 0 auto;
+    background-color: #ff6698;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: #eeeeee;
+}
+
+footer {
+    flex: 0 0 auto;
+    background-color: #ffff66;
+}
