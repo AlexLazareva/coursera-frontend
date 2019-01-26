@@ -52,11 +52,10 @@ main {
 .cards {
     display: grid;
     grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 250px;
-    grid-gap: 5px 5px;
+    grid-template-rows: 200px;
+    grid-gap: 10px 10px;
     align-content: start;
-    justify-content: center;
-    align-items: start;
+    justify-content: right;
     grid-template-areas:
             "a b b"
             "c f g"
@@ -66,6 +65,30 @@ main {
     /*flex-flow: row wrap;*/
     /*justify-content: space-between;*/
     /*padding: 0 0 0 15px;*/
+}
+.cards li:nth-child(1){
+    grid-area: a;
+}
+.cards li:nth-child(2){
+    grid-area: b;
+}
+.cards li:nth-child(3){
+    grid-area: c;
+}
+.cards li:nth-child(4){
+    grid-area: f;
+}
+.cards li:nth-child(5){
+    grid-area: g;
+}
+.cards li:nth-child(6){
+    grid-area: d;
+}
+.cards li:nth-child(7){
+    grid-area: k;
+}
+.cards li:nth-child(8){
+    grid-area: z;
 }
 
 .card {
@@ -77,7 +100,6 @@ main {
     justify-content: center;
 
     background-color: #fff;
-    margin: 0 10px 10px;
     overflow: hidden;
 }
 
@@ -113,6 +135,19 @@ main {
     background-color: rgba(10,10,10,.7);
     padding: 10px 15px;
 }
+/*--- Сортировка карточек по породе ---*/
+#abyssinia:checked ~ .cards > .card--abissian {
+    opacity: .4;
+}
+#british:checked ~ .cards > .card--british {
+    opacity: .4;
+}
+#russianBlue:checked ~ .cards > .card--rus {
+    opacity: .4;
+}
+#siamese:checked ~ .cards > .card--siam {
+    opacity: .4;
+}
 
 /*--- Меню ---*/
 .menu {
@@ -133,19 +168,20 @@ main {
     align-items: flex-start;
     padding: 12px 18px 15px 12px;
 }
-
+.menu__item:active {
+    background-color: #777777;
+}
 .menu__left .menu__item {
     border-bottom: 1px solid #fff;
     box-shadow: 0 1px 0 #6d6a6a;
 }
-
 .menu__title {
     font-size: 1.8rem;
     font-weight: 400;
     color: #fd0707;
     padding: 10px;
 }
-/*--- Сортировка ---*/
+/*--- Сортировка по рейтингу ---*/
 .menu__right label {
     display: inline-block;
     width: 80%;
