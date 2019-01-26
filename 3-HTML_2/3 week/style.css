@@ -50,10 +50,22 @@ main {
 }
 
 .cards {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 0 0 0 15px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 250px;
+    grid-gap: 5px 5px;
+    align-content: start;
+    justify-content: center;
+    align-items: start;
+    grid-template-areas:
+            "a b b"
+            "c f g"
+            "d d k"
+            "z z z";
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
+    /*padding: 0 0 0 15px;*/
 }
 
 .card {
@@ -136,6 +148,47 @@ main {
 
 .menu__handler {
     text-align: right;
+}
+
+/* --- Рейтинг ---*/
+.rating__item {
+    padding: 12px 18px 15px 12px;
+}
+.rating__title {
+    display: block;
+    width: 100%;
+}
+.rating__gradient {
+    display: flex;
+    align-items: center;
+}
+.rating__line {
+    justify-content: flex-start;
+    width: 90%;
+    height: 13px;
+    margin-right: 10px;
+}
+.rating__line--abs {
+    background: linear-gradient(90deg, #06e970, #fbfffd) no-repeat;
+    background-size: 100%;
+}
+.rating__line--brit {
+    background: linear-gradient(90deg, #06e970, #fbfffd) no-repeat;
+    background-size: 90%;
+}
+.rating__line--rus {
+    background: linear-gradient(90deg, #e2e900, #fbfffd) no-repeat;
+    background-size: 80%;
+}
+.rating__line--siam {
+    background: linear-gradient(90deg, #e90100, #fbfffd) no-repeat;
+    background-size: 40%;
+}
+
+.rating__number {
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: flex-end;
 }
 
 /*--- Подвал ---*/
