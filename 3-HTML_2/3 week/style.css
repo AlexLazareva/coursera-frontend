@@ -42,7 +42,15 @@ main {
 
 .main {
     display: flex;
-    flex: 3 3 1120px;
+    flex: 3 3 60%;
+}
+
+.sort {
+    display: none;
+}
+
+.cards {
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0 0 0 15px;
@@ -58,10 +66,24 @@ main {
 
     background-color: #fff;
     margin: 0 10px 10px;
+    overflow: hidden;
 }
 
-.card:hover .card__description{
-    display: block;
+.card::after {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    content: attr(data-name);
+
+    color: #fff;
+
+    background-color: rgba(10,10,10,.7);
+    padding: 10px 15px;
+    visibility: hidden;
+}
+
+.card:hover::after{
+    visibility: visible;
 }
 
 .card__img {
@@ -82,7 +104,7 @@ main {
 
 /*--- Меню ---*/
 .menu {
-    flex: 1 1 200px;
+    flex: 1 1 20%;
     background-color: #d2d2d2;
 }
 
