@@ -36,3 +36,36 @@ main {
     font-family: "Arial MT";
     font-weight: 400;
 }
+
+/*-- Преимущества --*/
+.benefits__title {
+    font-size: 47px;
+    text-align: center;
+}
+
+/*-- Блок "Попробовать" --*/
+.try {
+    text-align: center;
+}
+.try__title {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.try__button {
+    border: none;
+    background-color: #000000;
+    background-image: linear-gradient(to top, #ffdb00 0%, #ffe34a 100%);
+    padding: 19px 46px 16px 47px;
+
+    color: rgba(0, 0, 0, 0.72);
+    font-family: "Arial MT";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.try__button:hover {
+    opacity: .8;
+}
