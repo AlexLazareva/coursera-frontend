@@ -55,8 +55,30 @@ main {
 
 /*-- Слайдер --*/
 .slider {
+    /*position: relative;*/
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.slider:after, .slider:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    box-shadow: 1px 1px 1px rgba(255, 90, 0, 0.8);
+    background-color: #ffdb4a;
+    border-radius: 50%;
+}
+.slider:after {
+    content: url("img/arrow.png");
+    transform: rotate(180deg);
+    margin-left: 26px;
+}
+.slider:before {
+    content: url("img/arrow.png");
+    margin-right: 26px;
 }
 .slider__item {
     max-width: 644px;
