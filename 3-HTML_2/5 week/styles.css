@@ -93,6 +93,36 @@ main {
     display: flex;
     justify-content: center;
 }
+.video__snapshot {
+    width: 644px;
+    height: 361px;
+    background: #000000 url("img/Video_snapshot.png") center center no-repeat;
+    background-size: cover;
+
+    color: #ffffff;
+    text-align: center;
+}
+.video__snapshot:after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    content: url("img/play.png");
+    width: 128px;
+    height: 128px;
+    margin: 71px auto 0;
+
+    box-shadow: 1px 1px 1px rgba(255, 90, 0, 0.8);
+    background-color: #ffdb4a;
+    border-radius: 50%;
+}
+.video__header {
+    font-size: 29px;
+    font-weight: 400;
+
+    background-color: rgba(0,0,0,.7);
+    padding: 12px 12px 10px;
+}
 
 /*-- Преимущества --*/
 .benefits__title {

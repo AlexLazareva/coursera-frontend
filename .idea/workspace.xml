@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3367961-4821-49c3-8d10-2c06c1b918a9" name="Default Changelist" comment="create animation">
+      <change beforePath="$PROJECT_DIR$/3-HTML_2/5 week/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-HTML_2/5 week/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-HTML_2/5 week/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-HTML_2/5 week/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.editorconfig" beforeDir="false" />
@@ -40,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="416">
+              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -49,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+            <state relative-caret-position="195">
+              <caret line="112" column="24" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -266,7 +267,7 @@
       <workItem from="1549643850816" duration="33000" />
       <workItem from="1549728713520" duration="5000" />
       <workItem from="1550329768942" duration="5848000" />
-      <workItem from="1550382484643" duration="6249000" />
+      <workItem from="1550382484643" duration="8662000" />
     </task>
     <task id="LOCAL-00001" summary="done training task">
       <created>1546451935809</created>
@@ -370,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180187000" />
+    <option name="totallyTimeSpent" value="182600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -543,15 +544,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="416">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        <state relative-caret-position="195">
+          <caret line="112" column="24" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
         </state>
       </provider>
     </entry>
