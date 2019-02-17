@@ -39,7 +39,18 @@ main {
     top: 0;
     right: 74px;
     background-color: #fff;
-    padding: 27px 36px 48px;
+    padding: 27px 36px 0;
+}
+.logo:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 1px;
+    top: 86px;
+    border-top: 40px solid #fff;
+    border-left: 83px solid transparent;
+    border-right: 83px solid transparent;
 }
 
 /*-- Слайдер --*/
