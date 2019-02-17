@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3367961-4821-49c3-8d10-2c06c1b918a9" name="Default Changelist" comment="create animation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-HTML_2/5 week/img/sprite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-HTML_2/5 week/img/sprite.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/3-HTML_2/5 week/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-HTML_2/5 week/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-HTML_2/5 week/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-HTML_2/5 week/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.babelrc" beforeDir="false" />
@@ -41,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="450">
+              <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -51,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="112" column="24" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
+              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -89,6 +92,7 @@
       <find>TrueGothic</find>
       <find>.modal</find>
       <find>.mo</find>
+      <find>figure</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,6 +138,7 @@
         <option value="$PROJECT_DIR$/3-HTML_2/2 week/style.css" />
         <option value="$PROJECT_DIR$/3-HTML_2/3 week/index.html" />
         <option value="$PROJECT_DIR$/3-HTML_2/3 week/style.css" />
+        <option value="$PROJECT_DIR$/3-HTML_2/5 week/img/sprite.css" />
         <option value="$PROJECT_DIR$/3-HTML_2/5 week/index.html" />
         <option value="$PROJECT_DIR$/3-HTML_2/5 week/styles.css" />
       </list>
@@ -162,6 +167,12 @@
               <item name="Coursera" type="b2602c69:ProjectViewProjectNode" />
               <item name="Coursera" type="462c0819:PsiDirectoryNode" />
               <item name="3-HTML_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coursera" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coursera" type="462c0819:PsiDirectoryNode" />
+              <item name="3-HTML_2" type="462c0819:PsiDirectoryNode" />
+              <item name="2 week" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Coursera" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +278,7 @@
       <workItem from="1549643850816" duration="33000" />
       <workItem from="1549728713520" duration="5000" />
       <workItem from="1550329768942" duration="5848000" />
-      <workItem from="1550382484643" duration="8662000" />
+      <workItem from="1550382484643" duration="13868000" />
     </task>
     <task id="LOCAL-00001" summary="done training task">
       <created>1546451935809</created>
@@ -371,7 +382,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182600000" />
+    <option name="totallyTimeSpent" value="187806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -521,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-HTML_2/2 week/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="188" column="10" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-HTML_1/4 week/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357" />
@@ -539,20 +543,31 @@
     <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/img/play.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/3-HTML_2/2 week/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="177" column="26" lean-forward="true" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/img/sprite.css">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3-HTML_2/5 week/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="112" column="24" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
         </state>
       </provider>
     </entry>

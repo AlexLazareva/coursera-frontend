@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6, p, ul, figure {
     padding: 0;
 }
 main {
-    height: 100%;
     max-width: 1920px;
 
     background-color: #f6f5f3;
@@ -55,10 +54,11 @@ main {
 
 /*-- Слайдер --*/
 .slider {
-    /*position: relative;*/
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 163px 0 56px;
 }
 .slider:after, .slider:before {
     display: flex;
@@ -83,7 +83,7 @@ main {
 .slider__item {
     max-width: 644px;
     color: #000000;
-    font-family: "Arial MT";
+    font-family: Arial MT, sans-serif;
     font-size: 36px;
     font-weight: 400;
 }
@@ -125,9 +125,47 @@ main {
 }
 
 /*-- Преимущества --*/
+.benefits {
+    padding: 36px 0 34px;
+}
 .benefits__title {
     font-size: 47px;
     text-align: center;
+}
+.benefits__panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 40px 0;
+}
+.benefits__item {
+    max-width: 218px;
+}
+.item__img {
+    height: 92px;
+    background-image: url("img/spritesheet.png");
+    background-repeat: no-repeat;
+}
+.item-Catalogue_icon {
+    width: 99px;
+    background-position: -30px -30px;
+}
+.item-Intersections_icon {
+    width: 194px;
+    background-position: -189px -15px;
+}
+.item-Magnifying_glass_icon {
+    width: 83px;
+    background-position: -443px -30px;
+}
+.item-Search_field_icon {
+    width: 174px;
+    background-position: -586px -30px;
+}
+.item__title {
+    font-size: 30px;
+    font-weight: 400;
 }
 
 /*-- Блок "Попробовать" --*/
