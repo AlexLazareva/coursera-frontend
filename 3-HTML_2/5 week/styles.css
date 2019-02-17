@@ -13,6 +13,7 @@ body {
     padding: 0;
 
     background-color: #ffffff;
+    font: Arial, sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p, ul, figure {
     margin: 0;
@@ -20,6 +21,7 @@ h1, h2, h3, h4, h5, h6, p, ul, figure {
 }
 main {
     max-width: 1920px;
+    min-width: 984px;
 
     background-color: #f6f5f3;
     margin: 18px;
@@ -60,7 +62,7 @@ main {
 
     padding: 163px 0 56px;
 }
-.slider:after, .slider:before {
+.arrow__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,14 +73,18 @@ main {
     background-color: #ffdb4a;
     border-radius: 50%;
 }
-.slider:after {
-    content: url("img/arrow.png");
-    transform: rotate(180deg);
+.arrow__button--right {
+    background: #ffdb4a url("img/arrow.png") center center no-repeat;
     margin-left: 26px;
+    transform: rotate(180deg);
+    box-shadow: -1px -1px 1px rgba(255, 90, 0, 0.8);
 }
-.slider:before {
-    content: url("img/arrow.png");
+.arrow__button--left {
+    background: #ffdb4a url("img/arrow.png") center center no-repeat;
     margin-right: 26px;
+}
+.arrow__button:hover, .video__circle:hover {
+    opacity: .8;
 }
 .slider__item {
     max-width: 644px;
@@ -102,18 +108,17 @@ main {
     color: #ffffff;
     text-align: center;
 }
-.video__snapshot:after {
+.video__circle {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    content: url("img/play.png");
+    background: #ffdb4a url("img/play.png") center center no-repeat;
     width: 128px;
     height: 128px;
     margin: 71px auto 0;
 
     box-shadow: 1px 1px 1px rgba(255, 90, 0, 0.8);
-    background-color: #ffdb4a;
     border-radius: 50%;
 }
 .video__header {
@@ -143,7 +148,7 @@ main {
     max-width: 218px;
 }
 .item__img {
-    height: 92px;
+    height: 125px;
     background-image: url("img/spritesheet.png");
     background-repeat: no-repeat;
 }
@@ -166,6 +171,9 @@ main {
 .item__title {
     font-size: 30px;
     font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /*-- Блок "Попробовать" --*/
