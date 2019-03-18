@@ -37,28 +37,27 @@ Collection.prototype.at = function (el) {
 };
 
 // добавляет элемент в коллекцию
-Collection.prototype.append = function () {
-    if (arguments.length > 0 ){
-        for (var i = 0; i < arguments.length; i++){
-            if (arguments[i] instanceof Collection){
-                this._acc = this._acc.concat(Collection.prototype.values.call(arguments[i]));
-            } else if (Array.isArray(arguments[i])){
-                this._acc = this._acc.concat(arguments[i]);
-            } else {
-                this._acc.push(arguments[i]);
-            }
-        }
+Collection.prototype.append = function (item) {
+    if (item instanceof Collection) {
+        this._acc = this._acc.concat(item.values());
+    } else {
+        this._acc.push(item);
     }
 };
 
 // удаляет элемент с переданной позиции
 Collection.prototype.removeAt = function (pos) {
-    if ((pos <= 0)||(pos > this._acc.length)||(typeof pos !== 'number')){
-        return false;
-    } else {
-        this._acc.splice((pos - 1), 1);
-        return true;
+    var valid = this._validPosition(pos);
+
+    if (valid) {
+        this._acc.splice(pos - 1, 1);
     }
+
+    return valid;
+};
+
+Collection.prototype._validPosition = function (position) {
+    return position > 0 && position <= this.count();
 };
 
 /**
