@@ -6,17 +6,28 @@ module.exports = function (operations, callback) {
     var promises = [];
 
     operations.forEach(operation => {
-        let promise = new Promise((resolve, reject) => {
-
-
+        operation = new Promise((resolve, reject) => {
+                    var next = function (err, ms) {
+                        if (err !== null) {
+                            reject(err);
+                        } else {
+                            resolve(ms);
+                        }
+                        operation(next);
+                    };
+            setTimeout(function(){
+                resolve("Success!"); // Ура! Всё прошло хорошо!
+                reject();
+            }, 250);
         });
-        promises.push(promise);
+
+                console.info(operation);
     });
 
     Promise.all(promises)
-        .then(callback => {
-            callback();
-        }, error => {
-            console.log(error);
-        });
+            .then(function (resolve, reject) {
+                callback(resolve, reject);
+            }, function (resolve, reject) {
+                callback(resolve, reject);
+            });
 };

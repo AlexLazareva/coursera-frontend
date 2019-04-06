@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3367961-4821-49c3-8d10-2c06c1b918a9" name="Default Changelist" comment="create animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-JS_2/3 week/checks.js" beforeDir="false" afterPath="$PROJECT_DIR$/4-JS_2/3 week/checks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4-JS_2/3 week/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/4-JS_2/3 week/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.editorconfig" beforeDir="false" />
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/4-JS_2/3 week/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="32" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -50,7 +51,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4-JS_2/3 week/checks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1012" />
+            <state relative-caret-position="442">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -139,6 +142,7 @@
         <option value="$PROJECT_DIR$/3-HTML_2/5 week/index.html" />
         <option value="$PROJECT_DIR$/3-HTML_2/5 week/styles.css" />
         <option value="$PROJECT_DIR$/4-JS_2/2 week/index.js" />
+        <option value="$PROJECT_DIR$/4-JS_2/3 week/checks.js" />
         <option value="$PROJECT_DIR$/4-JS_2/3 week/index.js" />
       </list>
     </option>
@@ -155,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,17 +172,10 @@
               <item name="Coursera" type="462c0819:PsiDirectoryNode" />
               <item name="4-JS_2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Coursera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coursera" type="462c0819:PsiDirectoryNode" />
-              <item name="4-JS_2" type="462c0819:PsiDirectoryNode" />
-              <item name="3 week" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -185,7 +183,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552848386874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553370433524" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -208,12 +206,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.checks.js">
+    <configuration name="checks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/4-JS_2/3 week/checks.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/4-JS_2/2 week/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.checks.js" />
         <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
@@ -287,7 +289,14 @@
       <workItem from="1552817428932" duration="8276000" />
       <workItem from="1552935148895" duration="567000" />
       <workItem from="1553193869139" duration="1198000" />
-      <workItem from="1553366054611" duration="1670000" />
+      <workItem from="1553366054611" duration="1962000" />
+      <workItem from="1553368475068" duration="2042000" />
+      <workItem from="1553407633012" duration="3072000" />
+      <workItem from="1553455560692" duration="2230000" />
+      <workItem from="1553490758562" duration="258000" />
+      <workItem from="1553632057497" duration="5000" />
+      <workItem from="1553714695611" duration="24000" />
+      <workItem from="1554050906617" duration="1734000" />
     </task>
     <task id="LOCAL-00001" summary="done training task">
       <created>1546451935809</created>
@@ -391,14 +400,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228270000" />
+    <option name="totallyTimeSpent" value="237927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.27570695" />
-      <window_info id="Structure" order="1" sideWeight="0.5180723" side_tool="true" visible="true" weight="0.27570695" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4678715" visible="true" weight="0.30269924" />
+      <window_info id="Structure" order="1" sideWeight="0.5321285" side_tool="true" visible="true" weight="0.30269924" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -430,6 +438,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>Promise.all(promises);</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2-HTML_1/5 week/animation/index.html">
@@ -611,15 +628,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-JS_2/3 week/checks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1012" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4-JS_2/3 week/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-JS_2/3 week/checks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>
