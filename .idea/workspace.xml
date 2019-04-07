@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3367961-4821-49c3-8d10-2c06c1b918a9" name="Default Changelist" comment="create animation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-JS_2/5 week/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/4-JS_2/5 week/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4-JS_2/5 week/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/4-JS_2/5 week/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rooms-reserve/.editorconfig" beforeDir="false" />
@@ -40,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4-JS_2/5 week/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="-238">
+              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -49,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4-JS_2/5 week/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="1921">
               <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="13" />
             </state>
           </provider>
@@ -58,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/4-JS_2/5 week/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="246">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -151,6 +153,7 @@
         <option value="$PROJECT_DIR$/4-JS_2/2 week/index.js" />
         <option value="$PROJECT_DIR$/4-JS_2/3 week/checks.js" />
         <option value="$PROJECT_DIR$/4-JS_2/3 week/index.js" />
+        <option value="$PROJECT_DIR$/4-JS_2/5 week/index.html" />
         <option value="$PROJECT_DIR$/4-JS_2/5 week/script.js" />
       </list>
     </option>
@@ -167,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,13 +192,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554576978788" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554577338756" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -311,7 +314,8 @@
       <workItem from="1553632057497" duration="5000" />
       <workItem from="1553714695611" duration="24000" />
       <workItem from="1554050906617" duration="1734000" />
-      <workItem from="1554573775372" duration="3163000" />
+      <workItem from="1554573775372" duration="3712000" />
+      <workItem from="1554659230100" duration="8179000" />
     </task>
     <task id="LOCAL-00001" summary="done training task">
       <created>1546451935809</created>
@@ -415,14 +419,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241090000" />
+    <option name="totallyTimeSpent" value="249818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46586347" visible="true" weight="0.30655527" />
-      <window_info id="Structure" order="1" sideWeight="0.53413653" side_tool="true" visible="true" weight="0.30655527" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46385542" visible="true" weight="0.3104113" />
+      <window_info id="Structure" order="1" sideWeight="0.53614455" side_tool="true" visible="true" weight="0.3104113" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -658,24 +662,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-JS_2/5 week/index.html">
+    <entry file="file://$PROJECT_DIR$/4-JS_2/5 week/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="1921">
+          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-JS_2/5 week/index.css">
+    <entry file="file://$PROJECT_DIR$/4-JS_2/5 week/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="13" />
+        <state relative-caret-position="-238">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4-JS_2/5 week/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="246">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>

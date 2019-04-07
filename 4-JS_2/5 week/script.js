@@ -2,22 +2,32 @@
 
 // Код валидации формы
 
-function showError(container, errorMessage) {
-    container.className = 'form_invalid';
-    var messageElem = document.createElement('span');
-    messageElem.className = 'form__error-msg';
-    messageElem.innerHTML = errorMessage;
-    container.appendChild(messageElem);
+function showError(container, formId) {
+    formId.classList.add(container.formInvalidClass);
 }
 
-function resetError(container) {
-    container.className = '';
-    if (container.lastChild.className == "form_invalid") {
-        container.removeChild(container.lastChild);
-    }
+function resetError(container, formId) {
+    formId.classList.remove(container.formInvalidClass);
 }
 
 function validateForm(obj) {
-    console.log(obj);
+    var form = document.getElementById(obj.formId);
+    var elems = form.elements;
+
+    form.onsubmit = function () {
+        for (var el in elems) {
+            console.log(elems[el].value);
+            if(!elems[el].value) {
+                showError(obj, form);
+                event.preventDefault();
+            }
+        }
+        // if (!elems.name.value) {
+        //     showError(obj, form);
+        //     event.preventDefault();
+        // }
+
+        console.log('checked!', event);
+    };
     return obj;
 }
